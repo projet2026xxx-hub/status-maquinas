@@ -1,21 +1,25 @@
-# Streamlit para a interface
+# Streamlit
 streamlit==1.25.0
 
-# Visualização de gráficos
+# Visualização
 plotly==5.18.0
-matplotlib==3.8.1
+matplotlib==3.7.2
 seaborn==0.12.2
 
-# Manipulação de dados
+# Dataframes e manipulação de dados
 pandas==2.0.3
-numpy==1.25.0
-openpyxl==3.1.2
+numpy==1.26.5
 
-# Imagens e gráficos
-pillow==9.4.0
+# Utilitários
+rich>=10.14.0,<14
+python-dateutil==2.8.2
+pytz==2025.3
 
-# Extras úteis
-rich==14.2.0
-markdown-it-py==4.0.0
-mdurl==0.1.2
-pyyaml==6.0
+# Imagens
+Pillow>=9.4,<10
+
+# Dependências adicionais para compatibilidade
+cycler==0.11.0
+fonttools==4.41.1
+six==1.16.0
+packaging==24.1
