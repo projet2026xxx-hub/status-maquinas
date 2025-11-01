@@ -1,5 +1,21 @@
+# Streamlit para a interface
 streamlit==1.25.0
+
+# Visualização de gráficos
 plotly==5.18.0
-pandas==2.1.0
-numpy==1.26.0
+matplotlib==3.8.1
+seaborn==0.12.2
+
+# Manipulação de dados
+pandas==2.0.3
+numpy==1.25.0
 openpyxl==3.1.2
+
+# Imagens e gráficos
+pillow==9.4.0
+
+# Extras úteis
+rich==14.2.0
+markdown-it-py==4.0.0
+mdurl==0.1.2
+pyyaml==6.0
